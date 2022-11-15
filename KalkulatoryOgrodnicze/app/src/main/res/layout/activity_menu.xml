@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:background="@drawable/tlo">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/wysiew"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/kalkulator_normy_wysiewu" />
+
+        <Button
+            android:id="@+id/wiezby"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/kalkulator_wiezby_nieregularnej" />
+
+        <Button
+            android:id="@+id/opryski"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="5dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/kalkulator_opryski" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

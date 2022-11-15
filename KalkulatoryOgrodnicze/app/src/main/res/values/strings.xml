@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">KalkulatoryOgrodnicze</string>
+
+    <string name="kalkulator_normy_wysiewu">kalkulator normy wysiewu</string>
+    <string name="kalkulator_wiezby_nieregularnej">kalkulator więźby nieregularnej</string>
+    <string name="kalkulator_opryski">kalkulator dawkowania środków ochrony roślin</string>
+
+    <string name="wyliczanie">Wyliczanie</string>
+    <string name="ceny">Ceny</string>
+    <string name="menu">Menu</string>
+
+    <string name="kalkuluj">Kalkuluj</string>
+    <string name="wysiew">Zalecenie producenta wysiewu w danym terminie</string>
+    <string name="masa">Masa tysiąca nasion</string>
+    <string name="kielkowanie">Zdolność kiełkowania</string>
+    <string name="cena">Cena za kg ziaren</string>
+    <string name="powierzchnia">Powierzchnia pola</string>
+    <string name="puste">Pole nie może być puste</string>
+    <string name="zle_wysiew">Liczba musi być dodatnia</string>
+
+    <string name="liczba">Pole musi zawierać liczbę dodatnią. Separatorem jest kropka.</string>
+    <string name="liczba2">Można podać maksymalnie 2 cyfry oraz 2 po przecinku.</string>
+    <string name="liczba3">Można podać maksymalnie 9 cyfr oraz 2 po przecinku.</string>
+    <string name="liczba4">Można podać maksymalnie 5 cyfr oraz 2 po przecinku.</string>
+
+</resources>
